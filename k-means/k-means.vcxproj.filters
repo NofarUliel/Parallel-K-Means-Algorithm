@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="kMeans.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="mpi.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="omp.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="kernel.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="kMeans.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MPI.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OMP.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="defintion.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="output.txt">
+      <Filter>files</Filter>
+    </Text>
+    <Text Include="input37.txt">
+      <Filter>files</Filter>
+    </Text>
+    <Text Include="input.txt">
+      <Filter>files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{c13c0f97-fc70-4c62-bcd2-f143ec0e5281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files">
+      <UniqueIdentifier>{4447068c-c3ab-4aec-8a5c-c5d8bf269f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{4fb243e6-ab56-463f-b59a-439548ad4658}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="kernel.cu">
+      <Filter>sources</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readMe.txt">
+      <Filter>files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
